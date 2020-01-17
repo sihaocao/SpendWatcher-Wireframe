@@ -1,0 +1,35 @@
+.header-group, .App-description, .landingpage-link-group {
+    text-align: center;
+}
+
+.header-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.logo-holder {
+    border: 2px black solid;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 20px 10px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.logout-link {
+    margin-left: 100px;
+}
+
+.filter-options {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

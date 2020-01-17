@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class='main-headers'>
+        <div class='header-group'>
+            <div class='logo-holder'>Logo Holder</div>
+            <h1>SpendWatcher</h1>
+            <a href='index.html' class='logout-link'>Logout</a>
+        </div>
+    </div>
+    <div class='filter-options'>
+        <select class='date-sort'>
+            <option value='sort-by-date' checked>Sort By Date</option>
+            <option value='oldest-to-newest'>Oldest to Newest</option>
+            <option value='newest-to-oldest'>Newest to Oldest</option>
+        </select>
+        <select class='amount-sort'>
+            <option value='sort-by-amount' checked>Sort By Amount</option>
+            <option value='lowest-to-highest'>Lowest to Highest</option>
+            <option value='highest-to-lowest'>Highest to Lowest</option>
+        </select>
+        <select class='select-category'>
+            <option value='all-categories' checked>All Categories</option>
+            <option value='food'>Food</option>
+            <option value='shelter'>Shelter</option>
+            <option value='transportation'>Transportation</option>
+        </select>
+        <a href='add.html'>Add Expense</a>
+    </div>
+    <div class='main-list'>
+        <tr>
+            <td>2019-09-01</td>
+            <td>$100.00</td>
+            <td>Food</td>
+            <td>Weekly Food Trip</td>
+            <div>
+                <a href='edit1.html'>Edit</a>
+                <a href='delete1.html'>Delete</a>
+            </div>
+        </tr>
+        <tr>
+            <td>2019-07-01</td>
+            <td>$700.00</td>
+            <td>Shelter</td>
+            <td>Monthly Rent</td>
+            <div>
+                <a href='edit2.html'>Edit</a>
+                <a href='delete2.html'>Delete</a>
+            </div>
+        </tr>
+        <tr>
+            <td>2019-05-01</td>
+            <td>$200.00</td>
+            <td>Transportation</td>
+            <td>Monthly Commuter Pass</td>
+            <div>
+                <a href='edit3.html'>Edit</a>
+                <a href='delete3.html'>Delete</a>
+            </div>
+        </tr>
+    </div>
+</body>
+</html>

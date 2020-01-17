@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h2>Edit Entry</h2>
+    <form>
+        <label for='date'>Date</label>
+        <input type='date' name='date' value='2019-07-01'>
+        <br>
+        <label for='amount'>Amount ($)</label>
+        <input type='number' name='amount' value='700'>
+        <br>
+        <label for='category'>Category</label>
+        <select>
+            <option value='Choose-Category'>Choose Category</option>
+            <option value='food'>Food</option>
+            <option value='shelter' selected>Shelter</option>
+            <option value='transportation'>Transportation</option>
+        </select>
+        <br>
+        <label for='description'>Description</label>
+        <input type='text' name='description' value='Monthly Rent'>
+        <br>
+    </form>
+    <div class='edit-links'>
+        <a href='main.html'>Cancel</a>
+        <a href='main.html'>Save</a>
+    </div>
+</body>
+</html>
